@@ -3,3 +3,10 @@
     max-width: 20%;
     height: auto;
 }
+/*The styling below satisfies User Story #9*/
+#img-div {
+    display:block;
+    margin: auto;
+    text-align: center;
+}
+}
