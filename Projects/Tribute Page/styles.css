@@ -9,4 +9,13 @@
     margin: auto;
     text-align: center;
 }
+/*The styling below satisfies the Color Addition requirement*/
+#main {
+    background-color:rgb(64,200,200);
+}
+#img-div {
+    background-color:lightgray;
+}
+#quote {
+    background-color:lightgray;
 }
