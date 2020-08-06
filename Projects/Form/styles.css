@@ -1,0 +1,11 @@
+/*The styling below satisfies the Style Text requirement*/
+body {
+    margin: 0px 30% 0px 30%;
+}
+#title, #description {
+    display: block;
+    text-align: center;
+}
+#survey-form {
+    margin-bottom: 5%;
+}
