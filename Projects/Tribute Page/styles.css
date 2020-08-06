@@ -1,51 +1,21 @@
 /*The image styling below satisfies User Story #8*/
 #image {
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
 }
 /*The styling below satisfies User Story #9*/
 #img-div {
-    display: block;
+    display:block;
     margin: auto;
     text-align: center;
 }
 /*The styling below satisfies the Color Addition requirement*/
-body {
-    background-color:rgb(28,172,236);
+#main {
+    background-color:rgb(64,200,200);
 }
 #img-div {
     background-color:lightgray;
 }
 #quote {
     background-color:lightgray;
-}
-/*The styling below helps satisfy the Center and Style Text requirement*/
-#title {
-    text-align: center;
-}
-#img-div {
-    width: 30%;
-    padding: 1%;
-}
-#tribute-info {
-    margin: 0px 20% 0px 20%;
-    font-size: 20px;
-}
-#quote {
-    display: block;
-    margin: auto;
-    width: 30%;
-    padding: 1%;
-    font-family: inherit;
-}
-#tribute-link {
-    display: block;
-    margin: auto;
-    font-size: 20px;
-}
-#img-div, #quote{
-    border-radius: 10px;
-}
-li {
-    padding-bottom: 10px;
 }
