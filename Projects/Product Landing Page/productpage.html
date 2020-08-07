@@ -18,8 +18,10 @@
         <!--The header element below satisfies User Story #1-->
         <header id="header">
             <!--The img element below satisfies User Story #2-->
-            <img id="header-img" src="oyster.png" alt="Blossom Oyster House logo">
-            <p>Blossom Oyster House</p>
+            <div class="logo">
+                <img id="header-img" src="oyster.png" alt="Blossom Oyster House logo">
+                Blossom Oyster House
+            </div>
             <!--The nav element below satisfies User Story #3-->
             <nav id="nav-bar">
                 <!--The links below satisfy User Stories #4 and #5-->
@@ -28,25 +30,38 @@
                 <a class="nav-link" href="#pricing">Pricing</a>
                 <a class="nav-link" href="#signup">Newsletter Signup</a>
             </nav>
-            <div id="features">
-            </div>
-            <div id="video-section">
-                <!--The iframe element below satisfies User Story #6-->
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/GhEy31ixjZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div id="pricing">
-            </div>
-            <div id="signup">
-                <!--The form element below satisfies User Story #7-->
-                <!--The action link below satisfies User Story #12-->
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <label for="email">Sign up for our newsletter:</label>
-                    <!--The input field below satisfies User Stories #8, #9, and #10-->
-                    <input id="email" type="email" name="email" placeholder="Enter your email here">
-                    <!--The input element below satisfies User Story #11-->
-                    <input id="submit" type="submit" value="Submit">
-                </form>
-            </div>
         </header>
+        <div id="features">
+            <!--The classes below satisfy the Add Features requirement-->
+            <p class="satisfaction">
+                <img id="smile" class="images" src="smile.svg" alt="Smiley face">
+                <span id="sat-text"><b>100% Quality and Satisfaction Guarantee!</b></span>
+            </p>
+            <p class="delivery">
+                <img id="truck" class="images" src="truck.svg" alt="Truck">
+                <span id="del-text"><b>Fast FREE Shipping!</b></span>
+            </p>
+            <p class="recipes">
+                <img id="hat" class="images" src="hat.svg" alt="Chef's hat">
+                <span id="hat-text"><b>Free recipe book with every delivery!</b></span>
+            </p>
+        </div>
+        <div id="video-section">
+            <!--The iframe element below satisfies User Story #6-->
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/GhEy31ixjZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="pricing">
+        </div>
+        <div id="signup">
+            <!--The form element below satisfies User Story #7-->
+            <!--The action link below satisfies User Story #12-->
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Sign up for our newsletter:</label>
+                <!--The input field below satisfies User Stories #8, #9, and #10-->
+                <input id="email" type="email" name="email" placeholder="Enter your email here">
+                <!--The input element below satisfies User Story #11-->
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </body>
 </html>
