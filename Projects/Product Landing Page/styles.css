@@ -1,0 +1,15 @@
+/*The styling below satisfies User Stories #13 and #15*/
+#header-img {
+    width: 100px;
+    height: auto;
+}
+#header {
+    position: fixed;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+#nav-bar {
+    align-self: flex-end;
+}
