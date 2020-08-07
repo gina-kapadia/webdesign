@@ -13,3 +13,76 @@
 #nav-bar {
     align-self: flex-end;
 }
+/*The styling below satisfies the Style Features, Video, Pricing, and Form requirement*/
+#smile {
+    width: 50px;
+    height: auto;
+}
+.satisfaction {
+    display: flex;
+    margin: 0px 35% 0px 35%;
+    justify-content: flex-start;
+    padding-top: 300px;
+}
+#sat-text {
+    align-self: center;
+    padding-left: 30px;
+}
+#truck {
+    width: 50px;
+    height: auto;
+}
+.delivery {
+    display: flex;
+    margin: 0px 35% 0px 35%;
+    justify-content: flex-start;
+}
+#del-text {
+    align-self: center;
+    padding-left: 30px;
+}
+#hat {
+    width: 50px;
+    height: auto;
+}
+.recipes {
+    display: flex;
+    margin: 0px 35% 0px 35%;
+    justify-content: flex-start;
+}
+#hat-text {
+    align-self: center;
+    padding-left: 30px;
+}
+#pack1 {
+    border-style: solid;
+    width: 20%;
+    text-align: center;
+}
+#pack2 {
+    border-style: solid;
+    width: 20%;
+    text-align: center;
+}
+#pack3 {
+    border-style: solid;
+    width: 20%;
+    text-align: center;
+}
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pack1, #pack2, #pack3 {
+    margin: 5% 3% 5% 3%;
+}
+#video-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#signup {
+    display: flex;
+    justify-content: center;
+}
