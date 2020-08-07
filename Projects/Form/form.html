@@ -14,23 +14,26 @@
             content="no-cache" />
         </div>
     </head>
-    <body>
-        <!--The h1 header below satisfies User Story #1-->
-        <h1 id="title"><i>The Office</i> Survey</h1>
-        <!--The paragraph below satisfies User Story #2-->
-        <p id="description">A quick survey about <i>The Office</i></p>
+    <body> 
+        <div class="top">
+            <!--The h1 header below satisfies User Story #1-->
+            <h1 id="title"><i>The Office</i> Survey</h1>
+            <!--The paragraph below satisfies User Story #2-->
+            <p id="description">A quick survey about <i>The Office</i></p>
+        </div>
         <!--The form element below satisfies User Story #3-->
+        <!--The breaks in the form element below help satisfy the Add Photos, Colors, and Spacing requirement-->
         <form id="survey-form" action="https://theofficesurvey.com/submit-survey">
             <!--The labels used below satisfy User Story #10-->
             <!--The placeholders used below satisfy User Story #11-->
             <!--The input element below satisfies User Story #4-->
-            <p><label id="name-label" for="name">Name:</label> <input id="name" type="text" name="name" placeholder="Enter your name here" required></p>
+            <p><label id="name-label" for="name"><b>Name:</b><br /><br /></label> <input id="name" type="text" name="name" placeholder="Enter your name here" required></p>
             <!--The input element below satisfies User Stories #5 and #6-->
-            <p><label id="email-label" for="email">Email:</label> <input id="email" type="email" name="email" placeholder="Enter your email here" required></p>
+            <p><label id="email-label" for="email"><b>Email:</b><br /><br /></label> <input id="email" type="email" name="email" placeholder="Enter your email here" required></p>
             <!--The input element below satisfies User Stories #7, #8, and #9-->
-            <p><label id="number-label" for="number">How many episodes of <i>The Office</i> have you watched?</label> <input id="number" type="number" name="number" min="0" max="201" placeholder="Enter #"></p>
+            <p><label id="number-label" for="number"><b>How many episodes of <i>The Office</i> have you watched?</b><br /><br /></label> <input id="number" type="number" name="number" min="0" max="201" placeholder="Enter #"></p>
             <!--The select element below satisfies User Story #12-->
-            <p><label id="dropdown-label" for="dropdown">Who is your favorite Scranton Regional Manager?</label>
+            <p><label id="dropdown-label" for="dropdown"><b>Who is your favorite Scranton Regional Manager?</b></label><br /><br />
                 <select name="manager" id="dropdown">
                     <option disabled selected value> -- select an option -- </option>
                     <option value="Michael Scott">Michael Scott</option>
@@ -45,26 +48,26 @@
                     <option value="Kevin Malone">Kevin Malone</option>
                 </select></p>
             <!--The radio inputs below satisfy User Story #13-->
-            <p>Who is your favorite Stamford transfer?</p>
-            <p><label for="Jim Halpert"><input type="radio" name="transfer" value="Jim Halpert" id="Jim Halpert">Jim Halpert</label>
-            <label for="Andy Bernard"><input type="radio" name="transfer" value="Andy Bernard" id="Andy Bernard">Andy Bernard</label>
-            <label for="Karen Filippelli"><input type="radio" name="transfer" value="Karen Filippelli" id="Karen Filippelli">Karen Filippelli</label>
-            <label for="Hannah Smoterich-Barr"><input type="radio" name="transfer" value="Hannah Smoterich-Barr" id="Hannah Smoterich-Barr">Hannah Smoterich-Barr</label>
-            <label for="Martin Nash"><input type="radio" name="transfer" value="Martin Nash" id="Martin Nash">Martin Nash</label>
+            <p><b>Who is your favorite Stamford transfer?</b></p>
+            <p><label for="Jim Halpert"><input type="radio" name="transfer" value="Jim Halpert" id="Jim Halpert">Jim Halpert</label><br />
+            <label for="Andy Bernard"><input type="radio" name="transfer" value="Andy Bernard" id="Andy Bernard">Andy Bernard</label><br />
+            <label for="Karen Filippelli"><input type="radio" name="transfer" value="Karen Filippelli" id="Karen Filippelli">Karen Filippelli</label><br />
+            <label for="Hannah Smoterich-Barr"><input type="radio" name="transfer" value="Hannah Smoterich-Barr" id="Hannah Smoterich-Barr">Hannah Smoterich-Barr</label><br />
+            <label for="Martin Nash"><input type="radio" name="transfer" value="Martin Nash" id="Martin Nash">Martin Nash</label><br />
             <label for="Tony Gardner"><input type="radio" name="transfer" value="Tony Gardner" id="Tony Gardner">Tony Gardner</label></p>
             <!--The checkbox inputs below satisfy User Story #14-->
-            <p>Which local Scranton restaurant(s) would you like to visit?</p>
+            <p><b>Which local Scranton restaurant(s) would you like to visit?</b></p>
             <p>
-                <label for="Alfredo's Pizza Cafe"><input id="Alfredo's Pizza Cafe" type="checkbox" name="restaurants" value="Alfredo's Pizza Cafe">Alfredo's Pizza Cafe</label>
-                <label for="Anna Maria's"><input id="Anna Maria's" type="checkbox" name="restaurants" value="Anna Maria's">Anna Maria's</label>
-                <label for="Bernie's Tavern"><input id="Bernie's Tavern" type="checkbox" name="restaurants" value="Bernie's Tavern">Bernie's Tavern</label>
-                <label for="Brunetti's Pizza"><input id="Brunetti's Pizza" type="checkbox" name="restaurants" value="Brunetti's Pizza">Brunetti's Pizza</label>
-                <label for="Cooper's Seafood"><input id="Cooper's Seafood" type="checkbox" name="restaurants" value="Cooper's Seafood">Cooper's Seafood</label>
-                <label for="Cugino's"><input id="Cugino's" type="checkbox" name="restaurants" value="Cugino's">Cugino's</label>
+                <label for="Alfredo's Pizza Cafe"><input id="Alfredo's Pizza Cafe" type="checkbox" name="restaurants" value="Alfredo's Pizza Cafe">Alfredo's Pizza Cafe</label><br />
+                <label for="Anna Maria's"><input id="Anna Maria's" type="checkbox" name="restaurants" value="Anna Maria's">Anna Maria's</label><br />
+                <label for="Bernie's Tavern"><input id="Bernie's Tavern" type="checkbox" name="restaurants" value="Bernie's Tavern">Bernie's Tavern</label><br />
+                <label for="Brunetti's Pizza"><input id="Brunetti's Pizza" type="checkbox" name="restaurants" value="Brunetti's Pizza">Brunetti's Pizza</label><br />
+                <label for="Cooper's Seafood"><input id="Cooper's Seafood" type="checkbox" name="restaurants" value="Cooper's Seafood">Cooper's Seafood</label><br />
+                <label for="Cugino's"><input id="Cugino's" type="checkbox" name="restaurants" value="Cugino's">Cugino's</label><br />
                 <label for="Poor Richard's"><input id="Poor Richard's" type="checkbox" name="restaurants" value="Poor Richard's">Poor Richard's</label>
             </p>
             <!--The textarea element below satisfies User Story #15-->
-            <p><label for="comments">Please enter any additional comments about <i>The Office</i> below:</label><br />
+            <p><label for="comments"><b>Please enter any additional comments about <i>The Office</i> below:</b></label><br /><br />
             <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter comments here"></textarea></p>
             <!--The button element below satisfies User Story #16-->
             <button type="submit" id="submit">Submit</button>

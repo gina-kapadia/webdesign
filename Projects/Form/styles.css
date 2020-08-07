@@ -9,3 +9,31 @@ body {
 #survey-form {
     margin-bottom: 5%;
 }
+/* The code below helps satisfy the Add Photos, Colors, and Spacing requirement */
+body{
+    background-image: url(https://occ-0-1723-92.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfoRbykKz71k47r_4O5NEo9SCNOUUKIxI7LE609suqM_G6WXy4znXfIiYWd9ZheStmzZiI-jw53coQEO9fqDC4M4r-Qu.jpg?r=2fd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 18px;
+}
+#survey-form { 
+    padding: 10%;
+    padding-top: 5%;
+    border-style: solid;
+    background-color: orange;
+    opacity: 95%;
+}
+.top {
+    padding: 5%;
+    border-style: solid;
+    margin: 10%;
+    background-color: orange;
+    opacity: 95%;
+}
+#comments {
+    resize: vertical;
+}
+#description {
+    font-size: 18px;
+}
