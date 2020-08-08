@@ -12,6 +12,7 @@
             content="Gina Kapadia" />
             <meta http-equiv="pragma"
             content="no-cache" />
+            <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
         </div>
     </head>
     <body> 
@@ -20,59 +21,63 @@
             <!--The img element below satisfies User Story #2-->
             <div class="logo">
                 <img id="header-img" src="oyster.png" alt="Blossom Oyster House logo">
-                Blossom Oyster House
+                <span id="page-title">Blossom Oyster House</span>
             </div>
             <!--The nav element below satisfies User Story #3-->
-            <nav id="nav-bar">
+            <nav id="nav-bar"> 
                 <!--The links below satisfy User Stories #4 and #5-->
-                <a class="nav-link" href="#features">Features</a>
-                <a class="nav-link" href="#video-section">Oysters 101</a>
-                <a class="nav-link" href="#pricing">Pricing</a>
-                <a class="nav-link" href="#signup">Newsletter Signup</a>
+                <a class="nav-link" href="#features-link">Features</a>
+                <a class="nav-link" href="#oysters101-link">Oysters 101</a>
+                <a class="nav-link" href="#pricing-link">Pricing</a>
+                <a class="nav-link" href="#signup-link">Newsletter Signup</a>
             </nav>
         </header>
+        <h1>Fresh oysters at your doorstep from Blossom Oyster House</h1>
+        <h2 id="features-link">Features</h2>
         <div id="features">
             <!--The classes below satisfy the Add Features requirement-->
             <p class="satisfaction">
                 <img id="smile" class="images" src="smile.svg" alt="Smiley face">
-                <span id="sat-text"><b>100% Quality and Satisfaction Guarantee!</b></span>
+                <span id="sat-text"><b>100% quality and satisfaction guarantee!</b></span>
             </p>
             <p class="delivery">
                 <img id="truck" class="images" src="truck.svg" alt="Truck">
-                <span id="del-text"><b>Fast FREE Shipping!</b></span>
+                <span id="del-text"><b>Fast FREE shipping!</b></span>
             </p>
             <p class="recipes">
                 <img id="hat" class="images" src="hat.svg" alt="Chef's hat">
                 <span id="hat-text"><b>Free recipe book with every delivery!</b></span>
             </p>
         </div>
+        <h2 id="oysters101-link">Oysters 101</h2>
         <div id="video-section">
             <!--The iframe element below satisfies User Story #6-->
             <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/GhEy31ixjZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <h2 id="pricing-link">Pricing</h2>
         <div id="pricing">
             <!--The divs below satisfy the Add Pricing requirement-->
             <div id="pack1">
-                <h2 id="pack1-name">Beginner's Pack</h2>
-                <p id="pack1-price">$15/month</p>
+                <h3 id="pack1-name">Beginner's Pack</h3>
+                <p id="pack1-price">$15<sub>/month</sub></p>
                 <p id="pack1-desc">10 oysters/month</p>
             </div>
-            <div id="pack2">
-                <h2 id="pack2-name">Oyster Lover's Pack</h2>
-                <p id="pack2-price">$40/month</p>
+            <div id="pack2"> 
+                <h3 id="pack2-name">Lover's Pack</h3>
+                <p id="pack2-price">$40<sub>/month</sub></p>
                 <p id="pack2-desc">50 oysters/month</p>
             </div>
             <div id="pack3">
-                <h2 id="pack3-name">Oyster Aficionado's Pack</h2>
-                <p id="pack3-price">$90/month</p>
+                <h3 id="pack3-name">Aficionado's Pack</h3>
+                <p id="pack3-price">$90<sub>/month</sub></p>
                 <p id="pack3-desc">120 oysters/month</p>
             </div>
         </div>
+        <h2 id="signup-link">Newsletter Signup</h2>
         <div id="signup">
             <!--The form element below satisfies User Story #7-->
             <!--The action link below satisfies User Story #12-->
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <label for="email">Sign up for our newsletter:</label>
                 <!--The input field below satisfies User Stories #8, #9, and #10-->
                 <input id="email" type="email" name="email" placeholder="Enter your email here">
                 <!--The input element below satisfies User Story #11-->

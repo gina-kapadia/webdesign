@@ -164,3 +164,101 @@ a:visited {
 .nav-link {
     padding-right: 20px;
 }
+/*The media query for smaller screens below satisfies User Story #14. Below, the fonts are increased, the navigation bar is moved below the company name, and the pricing is switched into a column. The h1 header is also changed to black to improve readability on smaller screens.*/
+@media (max-width: 1024px) {
+    #header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1%;
+    }
+    #nav-bar {
+        font-size: 40px;
+    }
+    #smile {
+        width: 120px;
+        height: auto;
+    }
+    .satisfaction {
+        display: flex;
+        margin: auto;
+        margin-bottom: 5%;
+        justify-content: flex-start;
+        padding-top: 80px;
+        width: 50%;
+    }
+    #sat-text {
+        align-self: center;
+        padding-left: 30px;
+        font-size: 50px;
+    }
+    #truck {
+        width: 120px;
+        height: auto;
+    }
+    .delivery {
+        display: flex;
+        margin: auto;
+        margin-bottom: 5%;
+        justify-content: flex-start;
+        width: 50%;
+    }
+    #del-text {
+        align-self: center;
+        padding-left: 30px;
+        font-size: 50px;
+    }
+    #hat {
+        width: 120px;
+        height: auto;
+    }
+    .recipes {
+        display: flex;
+        margin: auto;
+        margin-bottom: 5%;
+        justify-content: flex-start;
+        width: 50%;
+    }
+    #hat-text {
+        align-self: center;
+        padding-left: 30px;
+        font-size: 50px;
+    }
+    #pack1-name, #pack2-name, #pack3-name {
+        font-size: 50px;
+        margin-top: 0;
+        background-color: rgb(151,145,173);
+        padding: 4%; 
+    }
+    #pack1-price, #pack2-price, #pack3-price {
+        font-size: 70px;
+    }
+    #pack1-desc, #pack2-desc, #pack3-desc {
+        font-size: 50px;
+    }
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    #pack1, #pack2, #pack3 {
+        width: auto;
+    }
+    #email {
+        font-size: 50px;
+    }
+    #submit {
+        font-size: 50px;
+    }
+    #page-title {
+        font-size: 80px;
+    }
+    h1 {
+        font-size: 70px;
+        color: black;
+    }
+}
