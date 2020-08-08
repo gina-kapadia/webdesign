@@ -110,6 +110,7 @@ body {
 #header {
     background-color: rgb(151,145,173);
     display:flex;
+    border-bottom-style: solid;
 }
 #page-title {
     font-family: 'Handlee',cursive;
