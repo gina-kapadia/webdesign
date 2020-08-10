@@ -87,6 +87,11 @@ h1 {
         font-size: 35px;
     }
 }
+/*The styling below satisfies the Add Color requirement*/
 body {
     margin: 0px;
+    background-color: lightgray;
+}
+#navbar {
+    background-color: white;
 }
