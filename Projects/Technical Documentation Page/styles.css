@@ -11,3 +11,17 @@
 main {
     margin-left: 20%;
 }
+/*The styling below satisfies User Story #15*/
+@media (max-width: 1024px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        border-style: solid;
+        text-align: center;
+        position: relative;
+    }
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
