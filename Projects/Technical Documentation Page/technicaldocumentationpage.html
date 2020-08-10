@@ -48,7 +48,7 @@
             <section class="main-section" id="Hello_World">
                 <h2>Hello World</h2>
                 <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-                <blockquote class="code"><pre><code>function greetMe(yourName) { alert("Hello " + yourName); }<br/><br/>greetMe("World");</code></pre></blockquote>
+                <blockquote class="code"><pre><code>function greetMe(yourName) <br/>{ alert("Hello " + yourName); }<br/><br/>greetMe("World");</code></pre></blockquote>
                 <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
             </section>
             <section class="main-section" id="Variables">
@@ -76,7 +76,7 @@
                 <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
                 <blockquote class="code"><pre><code>if (true) { var x = 5; } console.log(x); // 5</code></pre></blockquote>
                 <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-                <blockquote class="code"><pre><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code></pre></blockquote>
+                <blockquote class="code"><pre><code>if (true) { let y = 5; } console.log(y); <br/>// ReferenceError: y is not defined</code></pre></blockquote>
             </section>
             <section class="main-section" id="Data_Types">
                 <h2>Data Types</h2>
@@ -107,16 +107,19 @@
         <nav id="navbar">
             <!--The header below satisfies User Story #9-->
             <h1>JavaScript Topics</h1>
-            <!--The links below satisfy User Story #10, #11, #12, and #13-->
-            <a class="nav-link" href="#Introduction">Introduction</a>
-            <a class="nav-link" href="#What_You_Should_Already_Know">What You Should Already Know</a>
-            <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
-            <a class="nav-link" href="#Hello_World">Hello World</a>
-            <a class="nav-link" href="#Variables">Variables</a>
-            <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
-            <a class="nav-link" href="#Variable_Scope">Variable Scope</a>
-            <a class="nav-link" href="#Data_Types">Data Types</a>
-            <a class="nav-link" href="#Reference">Reference</a>
+            <!--The div below helps satisfy the Stylize Navbar requirement-->
+            <div id="links">
+                <!--The links below satisfy User Story #10, #11, #12, and #13-->
+                <a class="nav-link" href="#Introduction">Introduction</a>
+                <a class="nav-link" href="#What_You_Should_Already_Know">What You Should Already Know</a>
+                <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+                <a class="nav-link" href="#Hello_World">Hello World</a>
+                <a class="nav-link" href="#Variables">Variables</a>
+                <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+                <a class="nav-link" href="#Variable_Scope">Variable Scope</a>
+                <a class="nav-link" href="#Data_Types">Data Types</a>
+                <a class="nav-link" href="#Reference">Reference</a>
+            </div>
         </nav>
     </body>
 </html>
