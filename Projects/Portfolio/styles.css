@@ -1,0 +1,8 @@
+/*The styling below satisfies User Story #10*/
+#welcome-section {
+    border-style: solid;
+    height: 100vh;
+}
+body {
+    margin: 0;
+}
