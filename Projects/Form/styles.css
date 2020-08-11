@@ -33,6 +33,7 @@ body{
 }
 #comments {
     resize: vertical;
+    max-width: 100%;
 }
 #description {
     font-size: 18px;
