@@ -50,3 +50,53 @@ a:visited {
 .nav {
     padding: 1%;
 }
+/*The styling below satisfies the Stylize Projects requirement*/
+#projects {
+    background-color: rgb(199,187,201);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#form-project {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(94,60,88);
+    font-size: 20px;
+}
+#techdoc-project {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(94,60,88);
+    font-size: 20px;
+}
+#tribute-project {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(94,60,88);
+    font-size: 20px;
+}
+#product-project {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(94,60,88);
+    font-size: 20px;
+}
+#project-header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 50px;
+    color: rgb(94,60,88);
+    align-self: end;
+}
+.link{
+    display: block;
+    width: 100%;
+    height: a;
+    margin: 0;
+    padding-bottom: 5px;
+}
