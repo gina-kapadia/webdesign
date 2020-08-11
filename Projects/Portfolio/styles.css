@@ -14,3 +14,20 @@ body {
     top: 0;
     position: fixed;
 }
+/*The styling below satisfies the Stylize Welcome Section requirement*/
+#welcome-section {
+    background-color: rgb(131,173,181);
+    color: rgb(94,60,88);
+    font-family: 'Recursive', sans-serif;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1,#subheader {
+    margin: 0;
+}
+#subheader {
+    font-size: 50px;
+}
