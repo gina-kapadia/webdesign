@@ -31,3 +31,22 @@ h1,#subheader {
 #subheader {
     font-size: 50px;
 }
+/*The styling below satisfies the Stylize Navbar requirement*/
+#navbar {
+    background-color: rgb(94,60,88);
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    padding: 1%;
+}
