@@ -60,7 +60,7 @@ a:visited {
     justify-items: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 3%;
+    padding-top: 20px;
 }
 #form-project {
     grid-column: 1/2;
@@ -140,4 +140,8 @@ h2 {
     bottom: .25em;
     padding-left: 2px;
     color: rgb(94,60,88);
+}
+/*The styling below satisfies the Add Smooth Transitions requirement*/
+html {
+    scroll-behavior: smooth;
 }
