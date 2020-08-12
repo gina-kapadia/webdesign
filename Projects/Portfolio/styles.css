@@ -8,7 +8,7 @@ body {
 /*The styling below satisfies User Story #11*/
 #navbar {
     width: 100%;
-    height: 10vh;
+    height: 60px;
     border-style: solid;
     top: 0;
     position: fixed;
@@ -151,7 +151,7 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
-/*The styling below satisfies the Add Typewriting Effect requirement*/
+/*The styling below satisfies the Add Typewriting Effect requirement. I received help on the typing effect below from https://css-tricks.com/snippets/css/typewriter-effect/*/
 #subheader{
     overflow: hidden;
     border-right: .15em solid black;
@@ -179,11 +179,12 @@ html {
     h1 {
         font-size: 120px;
     }
+    /*I received help on the typing effect below from https://css-tricks.com/snippets/css/typewriter-effect/*/
     #subheader {
         font-size: 80px;
         overflow: hidden;
         border-right: .15em solid black;
-        white-space: nowrap;
+        white-space: normal;
         margin: 0 auto;
         animation: 
             typing 2s steps(22,end), blink-caret .75s step-end infinite;
@@ -197,7 +198,7 @@ html {
         flex-direction: column;
         align-items: center;
         padding-top: 15%;
-        height: 160vh
+        height: 2200px;
     }
     #project-header {
         align-self: center;
@@ -218,14 +219,13 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: 1000px;
     }
     #contact-info {
         display: flex;
         flex-direction: column;
         width: auto;
         align-items: flex-start;
-        margin: 10%;
     }
     .logo {
         width: 80px;
