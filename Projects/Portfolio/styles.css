@@ -1,6 +1,5 @@
 /*The styling below satisfies User Story #10*/
 #welcome-section {
-    border-style: solid;
     height: 100vh;
 }
 body {
@@ -103,13 +102,20 @@ a:visited {
 /*The styling below satisfies the Stylize Contact Section requirement*/
 #contact {
     background-color: rgb(131,173,181);
+}
+#lets-connect {
+    padding-top: 5%;
+    text-align: center;
+}
+#contact-info {
+    background-color: rgb(131,173,181);
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     justify-items: center;
-    align-items: flex-end;
+    align-items: center;
 }
 #profile-link {
     grid-column: 1/2;
@@ -161,4 +167,81 @@ html {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% {border-color: black;}
+}
+/*The styling below satisfies User Story #9*/
+@media (max-width: 1024px) {
+    #navbar {
+        font-size: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h1 {
+        font-size: 120px;
+    }
+    #subheader {
+        font-size: 80px;
+        overflow: hidden;
+        border-right: .15em solid black;
+        white-space: nowrap;
+        margin: 0 auto;
+        animation: 
+            typing 2s steps(22,end), blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+        from {width:0}
+        to {width: 90%}
+    }
+    #projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+        height: 160vh
+    }
+    #project-header {
+        align-self: center;
+        font-size: 80px;
+    }
+    .photo {
+        width: 500px;
+        height: auto;
+    }
+    .project-tile {
+        margin: 5% 0px 3% 0px;
+    }
+    #tile-text-1, #tile-text-2, #tile-text-3, #tile-text-4 {
+        font-size: 50px;
+        padding: 0px;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    #contact-info {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+        margin: 10%;
+    }
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+    .labels {
+        font-size: 60px;
+    }
+    #lets-connect {
+        font-size: 80px;
+        padding: 15%;
+    }
+    .labels {
+        padding-left: 10px;
+    }
+    #profile-link, #profile-link2, #profile-link3, #profile-link4 {
+        padding-bottom: 30px;
+    }
 }
